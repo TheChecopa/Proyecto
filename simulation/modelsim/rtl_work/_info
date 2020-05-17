@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/simulation/modelsim
 vA10
-Z1 !s110 1589228090
+Z1 !s110 1589419755
 !i10b 1
 !s100 _:j8Gg<znc6D6L^mLMjlm0
 IOeL0She>XT7l@i;:U6cie1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1589228090.000000
+Z4 !s108 1589419755.000000
 !s107 C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1|C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v|
 !i113 1
@@ -55,7 +55,7 @@ R6
 R7
 n@alu
 vbanco
-Z8 !s110 1589228091
+Z8 !s110 1589419756
 !i10b 1
 !s100 ^;5B:b9_ZOMQWJF8Ne?zz1
 IAHIFz]a?Q??WIg9l;cl@L2
@@ -69,7 +69,7 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1589228091.000000
+Z9 !s108 1589419756.000000
 !s107 C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/banco.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1|C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/banco.v|
 !i113 1
