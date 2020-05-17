@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # do Fase1_run_msim_rtl_verilog.do
+=======
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do A10_run_msim_rtl_verilog.do
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
@@ -7,6 +12,7 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
+<<<<<<< HEAD
 # Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
@@ -24,30 +30,78 @@
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:15 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v 
+=======
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:19 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module A10
 # 
 # Top level modules:
 # 	A10
+<<<<<<< HEAD
 # End time: 20:29:15 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/buffer1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:15 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/buffer1.v 
+=======
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module buffer1
 # 
 # Top level modules:
 # 	buffer1
+<<<<<<< HEAD
 # End time: 20:29:15 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/buffer2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:15 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/buffer2.v 
+=======
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v 
+# -- Compiling module banco
+# 
+# Top level modules:
+# 	banco
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v 
+# -- Compiling module uc_alu
+# 
+# Top level modules:
+# 	uc_alu
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module buffer2
 # 
 # Top level modules:
 # 	buffer2
+<<<<<<< HEAD
 # End time: 20:29:15 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/buffer3.v}
@@ -84,10 +138,49 @@
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:15 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/mux2.v 
+=======
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v 
+# -- Compiling module Alu
+# 
+# Top level modules:
+# 	Alu
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v 
+# -- Compiling module buffer3
+# 
+# Top level modules:
+# 	buffer3
+# End time: 13:48:20 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:20 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v 
+# -- Compiling module uc
+# 
+# Top level modules:
+# 	uc
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
+<<<<<<< HEAD
 # End time: 20:29:16 on May 13,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/mux3.v}
@@ -104,10 +197,29 @@
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:16 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/mux4.v 
+=======
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v 
+# -- Compiling module buffer4
+# 
+# Top level modules:
+# 	buffer4
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
+<<<<<<< HEAD
 # End time: 20:29:16 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/uc.v}
@@ -154,10 +266,109 @@
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:16 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/memIn.v 
+=======
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v 
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v 
+# -- Compiling module sign
+# 
+# Top level modules:
+# 	sign
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v 
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 13:48:21 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:21 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v 
+# -- Compiling module add1
+# 
+# Top level modules:
+# 	add1
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v 
+# -- Compiling module branch
+# 
+# Top level modules:
+# 	branch
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v 
+# -- Compiling module shift1
+# 
+# Top level modules:
+# 	shift1
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v 
+# -- Compiling module add2
+# 
+# Top level modules:
+# 	add2
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module memIn
 # 
 # Top level modules:
 # 	memIn
+<<<<<<< HEAD
 # End time: 20:29:16 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
@@ -165,10 +376,20 @@
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 # Start time: 20:29:16 on May 13,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1" C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/test.v 
+=======
+# End time: 13:48:22 on May 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario\ de\ arquitectura/A10 {C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:48:22 on May 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10" C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # -- Compiling module test
 # 
 # Top level modules:
 # 	test
+<<<<<<< HEAD
 # End time: 20:29:16 on May 13,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
@@ -178,16 +399,38 @@
 # Loading work.test
 # Loading work.A10
 # Loading work.fetch
+=======
+# End time: 13:48:23 on May 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test 
+# Start time: 13:48:23 on May 16,2020
+# Loading work.test
+# Loading work.A10
+# Loading work.mux1
+# Loading work.pc
+# Loading work.add1
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # Loading work.memIn
 # Loading work.buffer1
 # Loading work.banco
 # Loading work.uc
+<<<<<<< HEAD
 # Loading work.buffer2
 # Loading work.mux2
+=======
+# Loading work.sign
+# Loading work.buffer2
+# Loading work.mux2
+# Loading work.shift1
+# Loading work.add2
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # Loading work.uc_alu
 # Loading work.mux3
 # Loading work.Alu
 # Loading work.buffer3
+<<<<<<< HEAD
 # Loading work.buffer4
 # Loading work.mux4
 # ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v(102): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/uc_alu.v(5).
@@ -197,6 +440,16 @@
 # ** Warning: (vsim-3015) C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v(116): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/Alu.v(4).
 #    Time: 0 ps  Iteration: 0  Instance: /test/duv/alu1 File: C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/Alu.v
 # ** Warning: (vsim-3722) C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/A10.v(116): [TFMPC] - Missing connection for port 'zero'.
+=======
+# Loading work.branch
+# Loading work.mem
+# Loading work.buffer4
+# Loading work.mux4
+# ** Warning: (vsim-3015) C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v(157): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /test/duv/uc File: C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v
+# ** Warning: (vsim-3015) C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v(172): [PCDPC] - Port size (4) does not match connection size (6) for port 'sel'. The port definition is at: C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /test/duv/alu1 File: C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 # 
 # add wave *
 # view structure
@@ -204,6 +457,7 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+<<<<<<< HEAD
 # ** Warning: (vsim-PLI-3408) Too few data words read on line 17 of file "C:\intelFPGA_lite\18.1\proyectos\ProyectoFinal\Fases\Fase1\datos.txt". Expected 32, found 16.    : C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/banco.v(13)
 #    Time: 0 ps  Iteration: 0  Instance: /test/duv/bank
 # ** Note: $stop    : C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/test.v(28)
@@ -211,3 +465,10 @@
 # Break in Module test at C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/test.v line 28
 # End time: 20:31:29 on May 13,2020, Elapsed time: 0:02:12
 # Errors: 0, Warnings: 5
+=======
+# ** Note: $stop    : C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v(30)
+#    Time: 720 ns  Iteration: 0  Instance: /test
+# Break in Module test at C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v line 30
+# End time: 13:50:07 on May 16,2020, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 2
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06

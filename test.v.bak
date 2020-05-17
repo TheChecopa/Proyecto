@@ -1,6 +1,7 @@
 `timescale 1ns/100ps
 module test();
 reg clk;
+<<<<<<< HEAD
 wire [31:0] salida;
 A10 duv
 (
@@ -28,4 +29,42 @@ initial
 		  #60;
  $stop;
  end
+=======
+reg en;
+wire [31:0] dr1;
+wire [31:0] dr2;
+
+Act10 duv
+(
+	.clk(clk),
+	.en(en),
+	.dr1(dr1),
+	.dr2(dr2)
+);
+
+
+
+
+initial 
+	begin
+		forever #40 clk = ~clk;
+	end
+
+initial
+  begin
+		  $readmemb("datos.txt",duv.bank.m,0,2);
+        clk = 1'b1; en = 1'b1;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+		  #80;
+  end
+initial
+#320 $finish; 
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 endmodule

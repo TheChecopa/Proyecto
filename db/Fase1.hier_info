@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |test
 
 
@@ -38,6 +39,45 @@ salida[31] <= buffer4:b4.salida
 
 
 |test|A10:duv|fetch:f1
+=======
+|A10
+clk => clk.IN5
+salida[0] << buffer4:b4.salida
+salida[1] << buffer4:b4.salida
+salida[2] << buffer4:b4.salida
+salida[3] << buffer4:b4.salida
+salida[4] << buffer4:b4.salida
+salida[5] << buffer4:b4.salida
+salida[6] << buffer4:b4.salida
+salida[7] << buffer4:b4.salida
+salida[8] << buffer4:b4.salida
+salida[9] << buffer4:b4.salida
+salida[10] << buffer4:b4.salida
+salida[11] << buffer4:b4.salida
+salida[12] << buffer4:b4.salida
+salida[13] << buffer4:b4.salida
+salida[14] << buffer4:b4.salida
+salida[15] << buffer4:b4.salida
+salida[16] << buffer4:b4.salida
+salida[17] << buffer4:b4.salida
+salida[18] << buffer4:b4.salida
+salida[19] << buffer4:b4.salida
+salida[20] << buffer4:b4.salida
+salida[21] << buffer4:b4.salida
+salida[22] << buffer4:b4.salida
+salida[23] << buffer4:b4.salida
+salida[24] << buffer4:b4.salida
+salida[25] << buffer4:b4.salida
+salida[26] << buffer4:b4.salida
+salida[27] << buffer4:b4.salida
+salida[28] << buffer4:b4.salida
+salida[29] << buffer4:b4.salida
+salida[30] << buffer4:b4.salida
+salida[31] << buffer4:b4.salida
+
+
+|A10|fetch:f1
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 clk => pc[2].CLK
 clk => pc[3].CLK
 clk => pc[4].CLK
@@ -54,7 +94,11 @@ salida[6] <= pc[6].DB_MAX_OUTPUT_PORT_TYPE
 salida[7] <= pc[7].DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|memIn:m1
+=======
+|A10|memIn:m1
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 ar[0] => Mux0.IN263
 ar[0] => Mux1.IN263
 ar[0] => Mux2.IN263
@@ -184,7 +228,11 @@ out[30] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 out[31] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|buffer1:b1
+=======
+|A10|buffer1:b1
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 clk => b1_out[0]~reg0.CLK
 clk => b1_out[1]~reg0.CLK
 clk => b1_out[2]~reg0.CLK
@@ -283,7 +331,11 @@ b1_out[30] <= b1_out[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 b1_out[31] <= b1_out[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|banco:bank
+=======
+|A10|banco:bank
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 AR1[0] => m.RADDR
 AR1[1] => m.RADDR1
 AR1[2] => m.RADDR2
@@ -398,7 +450,11 @@ DR2[30] <= m.PORTBDATAOUT30
 DR2[31] <= m.PORTBDATAOUT31
 
 
+<<<<<<< HEAD
 |test|A10:duv|uc:control
+=======
+|A10|uc:control
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 opcode[0] => ~NO_FANOUT~
 opcode[1] => ~NO_FANOUT~
 opcode[2] => ~NO_FANOUT~
@@ -414,7 +470,11 @@ aluop[1] <= <VCC>
 aluop[2] <= <GND>
 
 
+<<<<<<< HEAD
 |test|A10:duv|buffer2:b2
+=======
+|A10|buffer2:b2
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 dr1[0] => dr1_out[0]~reg0.DATAIN
 dr1[1] => dr1_out[1]~reg0.DATAIN
 dr1[2] => dr1_out[2]~reg0.DATAIN
@@ -663,7 +723,11 @@ sel_out[4] <= sel_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 sel_out[5] <= sel_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|mux2:m2
+=======
+|A10|mux2:m2
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 TipoR[0] => smux2.DATAB
 TipoR[1] => smux2.DATAB
 TipoR[2] => smux2.DATAB
@@ -677,7 +741,11 @@ smux2[3] <= smux2.DB_MAX_OUTPUT_PORT_TYPE
 smux2[4] <= smux2.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|uc_alu:uc
+=======
+|A10|uc_alu:uc
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 aluop[0] => Equal0.IN2
 aluop[1] => Equal0.IN0
 aluop[2] => Equal0.IN1
@@ -693,7 +761,11 @@ sel[2] <= sel[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
 sel[3] <= sel[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|mux3:m3
+=======
+|A10|mux3:m3
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 rd2[0] => smux3[0].DATAIN
 rd2[1] => smux3[1].DATAIN
 rd2[2] => smux3[2].DATAIN
@@ -761,7 +833,11 @@ smux3[30] <= rd2[30].DB_MAX_OUTPUT_PORT_TYPE
 smux3[31] <= rd2[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|Alu:alu1
+=======
+|A10|Alu:alu1
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 A[0] => Add0.IN32
 A[0] => Add1.IN64
 A[0] => Mult0.IN31
@@ -1473,7 +1549,11 @@ res[31] <= res[31]$latch.DB_MAX_OUTPUT_PORT_TYPE
 zero <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|buffer3:b3
+=======
+|A10|buffer3:b3
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 clk => out_memtoreg~reg0.CLK
 clk => out_regwrite~reg0.CLK
 clk => out_AW[0]~reg0.CLK
@@ -1593,7 +1673,11 @@ res_out[30] <= res_out[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 res_out[31] <= res_out[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|buffer4:b4
+=======
+|A10|buffer4:b4
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 clk => out_memtoreg~reg0.CLK
 clk => out_regwrite~reg0.CLK
 clk => out_AW[0]~reg0.CLK
@@ -1809,7 +1893,11 @@ res_out[30] <= res_out[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 res_out[31] <= res_out[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
 |test|A10:duv|mux4:m4
+=======
+|A10|mux4:m4
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 alu[0] => smux4[0].DATAIN
 alu[1] => smux4[1].DATAIN
 alu[2] => smux4[2].DATAIN

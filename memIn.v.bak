@@ -7,7 +7,14 @@ reg [7:0]mem[0:128];
 
 initial
 begin
+<<<<<<< HEAD
 	 $readmemb("C:\\Users\\Default.DESKTOP-8GME6EK\\Documents\\Seminario de arquitectura\\A10\\archivo.txt",mem,0,15);
+=======
+	mem[0] = 00000000;
+	mem[1] = 01100001;
+	mem[2] = 00010000;
+	mem[3] = 00100000;
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 end
 
 always@*

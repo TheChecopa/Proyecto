@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 Analysis & Elaboration Status : Successful - Wed May 13 20:28:56 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Fase1
 Top-level Entity Name : test
+=======
+Analysis & Elaboration Status : Successful - Mon May 11 15:14:41 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Fase1
+Top-level Entity Name : A10
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 Family : MAX V

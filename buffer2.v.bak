@@ -1,0 +1,17 @@
+module buffer2
+(
+	input [31:0] dr1, dr2,
+	input [3:0] sel,
+	input clk,
+	output reg [31:0] dr1_out, dr2_out,
+	output reg [3:0] sel_out
+);
+
+always @(posedge clk)
+	begin
+		dr1_out <= dr1;
+		dr2_out <= dr2;
+		sel_out <= sel;
+	end
+	
+endmodule 

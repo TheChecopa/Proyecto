@@ -17,7 +17,10 @@ vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoF
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/mux4.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/uc.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/uc_alu.v}
+<<<<<<< HEAD
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/test.v}
+=======
+>>>>>>> 29809fb09eebb26cc0862e9f0e52b14ab7498c06
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/banco.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1 {C:/intelFPGA_lite/18.1/proyectos/ProyectoFinal/Fases/Fase1/memIn.v}
 
