@@ -1,0 +1,23 @@
+module pc
+(
+	input [6:0] add,
+	input clk,
+	output reg [6:0] salida
+);
+
+always @(posedge clk)
+begin
+	case (add)
+		 7'dx:
+		 begin
+			salida <= 7'd0 ;
+		 end
+	endcase
+	if(add >= 7'd0)
+		begin
+			salida <= add;
+		end	
+end
+
+
+endmodule 

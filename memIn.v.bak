@@ -1,0 +1,20 @@
+module memIn(
+input [7:0] ar,
+output reg [31:0] out
+);
+
+reg [7:0]mem[0:128];
+
+initial
+begin
+	mem[0] = 00000000;
+	mem[1] = 01100001;
+	mem[2] = 00010000;
+	mem[3] = 00100000;
+end
+
+always@*
+begin
+	out = {mem[ar],mem[ar+1],mem[ar+2],mem[ar+3]};
+end
+endmodule 

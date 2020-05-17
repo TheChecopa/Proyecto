@@ -1,0 +1,21 @@
+module mux1
+(
+	input pcsrc,
+	input [6:0] add1, add2,
+	output smux1
+);
+
+always @*
+begin
+	case (pcsrc)
+		1'b1:
+			begin
+				smux1 <= add2;
+			end
+		1'b0:
+			begin
+				smux1 <= add1;
+			end
+	endcase
+end
+endmodule 

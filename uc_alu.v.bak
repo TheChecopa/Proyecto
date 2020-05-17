@@ -1,0 +1,20 @@
+module uc_alu
+(
+	input [5:0]funct, 
+	output reg [3:0]sel
+);
+
+always @(*)
+begin
+	case(funct)
+			6'b100000:
+					sel <= 4'b0000;
+			6'b100001:
+					sel <= 4'b0001;
+			6'b100010:
+					sel <= 4'b0010;
+			6'b100011:
+					sel <= 4'b0011;
+	endcase
+end
+endmodule

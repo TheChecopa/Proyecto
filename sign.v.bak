@@ -1,0 +1,14 @@
+module sign
+(
+	input [15:0] IN_sign; 
+	output [31:0] OUT_sign
+);
+
+always @(*)
+begin 
+	if (IN_sign[15] == 0 )
+		OUT_sig = {16'b0000_0000_0000_0000,IN_sign};
+	else
+		OUT_sign = {16'b1111_1111_1111_1111,IN_sign};
+end
+endmodule 

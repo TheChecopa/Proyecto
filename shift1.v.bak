@@ -1,0 +1,7 @@
+module shift1
+(
+	input[31:0] IN_shift,
+	output [31:0] OUT_shift
+);
+ assign OUT_shift ={IN_shift*4};
+ endmodule 

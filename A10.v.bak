@@ -1,0 +1,42 @@
+module A10
+(
+	input clk,
+	input en,
+	output [31:0] dr1,
+	output [31:0] dr2
+);
+
+wire[7:0] pc_memIn;
+wire [31:0] memIn_b1;
+wire [31:0] b1_br;
+
+fetch f1
+(
+	.clk(clk),
+	.salida(pc_memIn)
+);
+
+memIn m1
+(
+	.ar(pc_memIn),
+	.out(memIn_b1)
+);
+
+buffer1 b1
+(
+	.clk(clk),
+	.ins(memIn_b1),
+	.b1_out(b1_br)
+);
+
+banco bank
+(
+	.AW(b1_br[25:21]),
+	.AR1(b1_br[20:16]),
+	.AR2(b1_br[15:11]),
+	.en(en),
+	.DR1(dr1),
+	.DR2(dr2)
+);
+
+endmodule 

@@ -1,0 +1,16 @@
+module add1
+(
+	input [6:0] pc,
+	output reg [6:0] salida
+);
+reg [6:0] cuatro;
+initial 
+begin
+	cuatro <= 7'd4;
+end
+
+always @(*)
+begin 
+	salida <= pc + cuatro;
+end
+ endmodule 

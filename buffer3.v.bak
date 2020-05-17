@@ -1,0 +1,15 @@
+module buffer3
+(
+	input clk,
+	input [31:0] res,
+	output reg [31:0] salida,
+	output reg [31:0] res_out
+);
+
+always @(posedge clk)
+begin
+	res_out <= res;
+	salida <= res;
+end 
+
+endmodule 

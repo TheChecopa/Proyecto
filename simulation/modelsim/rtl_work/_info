@@ -1,0 +1,497 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/simulation/modelsim
+vA10
+Z1 !s110 1589654900
+!i10b 1
+!s100 >R[d]<25@koadX7PY]bnJ1
+IU6c4[6k]jc^_S6NW7dBjm3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1589653357
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1589654899.000000
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/A10.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10}
+Z6 tCvgOpt 0
+n@a10
+vadd1
+Z7 !s110 1589654902
+!i10b 1
+!s100 ;;<9[]i5=2afll3NzVUTG0
+I3J2Wmh:YBZQ;g0;`^G41O0
+R2
+R0
+w1589652884
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1589654902.000000
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add1.v|
+!i113 1
+R4
+R5
+R6
+vadd2
+R7
+!i10b 1
+!s100 22_lXJii=lC3@LG9L@>BR0
+IM?eE`lVzfk9R;=lYB9U170
+R2
+R0
+w1589652440
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/add2.v|
+!i113 1
+R4
+R5
+R6
+vAlu
+R1
+!i10b 1
+!s100 IR[NBn>k;3GYd[U1iVoN<1
+IZcH@=iHX>_3Al`Z4Gfj<j1
+R2
+R0
+w1589217923
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1589654900.000000
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/Alu.v|
+!i113 1
+R4
+R5
+R6
+n@alu
+vbanco
+R1
+!i10b 1
+!s100 K4nL<CT^`GVSg>OY;OlBe1
+I16Y;eO`VI<K94dP]2f1RL2
+R2
+R0
+w1587929072
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/banco.v|
+!i113 1
+R4
+R5
+R6
+vbranch
+R7
+!i10b 1
+!s100 BJo3cNkIjN=n?lc5>:4XE3
+IL0^>IgSJFEZ?gZG0H=KgU3
+R2
+R0
+w1589651030
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/branch.v|
+!i113 1
+R4
+R5
+R6
+vbuffer1
+R1
+!i10b 1
+!s100 L[RTIVYPgRf4:1?4Wh5EQ2
+IoNab:^Y=efgF`Yc_BS0Dh0
+R2
+R0
+w1589653033
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer1.v|
+!i113 1
+R4
+R5
+R6
+vbuffer2
+R1
+!i10b 1
+!s100 26iLVeWC6Q=hHGD^CaBPi2
+I>aN8:Nl_j0LaDb7[?SR190
+R2
+R0
+w1589653027
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer2.v|
+!i113 1
+R4
+R5
+R6
+vbuffer3
+R1
+!i10b 1
+!s100 RZ453n8jT9ALFPKKHz>mI1
+IZ[V5;]QCmX0G]b_^>8[jE1
+R2
+R0
+w1589653137
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer3.v|
+!i113 1
+R4
+R5
+R6
+vbuffer4
+Z10 !s110 1589654901
+!i10b 1
+!s100 MC>Pl22jE7Tz3i099^^RQ3
+IAQeAoAc2Az;d=NQ1Oz7;81
+R2
+R0
+w1589390759
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1589654901.000000
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/buffer4.v|
+!i113 1
+R4
+R5
+R6
+vmem
+R10
+!i10b 1
+!s100 67j[06?_;M4K17LHhkRJH0
+IiLlSJ<GdXFDkcd4Geo<Uk0
+R2
+R0
+w1589389922
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mem.v|
+!i113 1
+R4
+R5
+R6
+vmemIn
+R7
+!i10b 1
+!s100 ][o0i^NHebfd4JfgE[;=00
+I5hB51AkMA9S:3;nb_4hA`1
+R2
+R0
+w1589652919
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/memIn.v|
+!i113 1
+R4
+R5
+R6
+nmem@in
+vmux1
+R7
+!i10b 1
+!s100 jFWhLoWXIJ4IWMAWYQo_B3
+Ik;?=OeRY6zfGfjQD_<c<m0
+R2
+R0
+w1589654688
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux1.v|
+!i113 1
+R4
+R5
+R6
+vmux2
+R10
+!i10b 1
+!s100 V:aBPA45W@:`KQ8Kl:YiA2
+ILX4o6GiBW:M0<I1M`mBWS0
+R2
+R0
+w1589392216
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux2.v|
+!i113 1
+R4
+R5
+R6
+vmux3
+R10
+!i10b 1
+!s100 km?mXcCPejnSGco[_[b;]2
+ILfj]MRjYYlTA<h7MJoLgK2
+R2
+R0
+w1589392234
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux3.v|
+!i113 1
+R4
+R5
+R6
+vmux4
+R10
+!i10b 1
+!s100 =kbA:5YnWYaOHio=E23`I3
+Izk^G2D;I[b_K9O9NeRgh50
+R2
+R0
+w1589392226
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/mux4.v|
+!i113 1
+R4
+R5
+R6
+vpc
+R7
+!i10b 1
+!s100 m<95HhV^6RVSM[R:<4JNc1
+IFDZIP>mN:M?TC73EUJVZ@3
+R2
+R0
+w1589652858
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/pc.v|
+!i113 1
+R4
+R5
+R6
+vshift1
+R7
+!i10b 1
+!s100 mXZne[IA3J@^346CWim9J3
+IR78mCzCIZmh]UH_2g>8zQ3
+R2
+R0
+w1589651280
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/shift1.v|
+!i113 1
+R4
+R5
+R6
+vsign
+R10
+!i10b 1
+!s100 ^WoP1ESjYGd]gDh6b_`OM0
+IhUn1TF3KdbU?eF;idElSV2
+R2
+R0
+w1589388072
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/sign.v|
+!i113 1
+R4
+R5
+R6
+vtest
+!s110 1589654903
+!i10b 1
+!s100 9?2JE5gT=Kb8CWJ0;76Hn2
+I:_KBNPjn9<VCR8cj^zUXl1
+R2
+R0
+w1589395598
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/test.v|
+!i113 1
+R4
+R5
+R6
+vuc
+R10
+!i10b 1
+!s100 1DDo`8NVaU_4M[>6jWL=c3
+IKHQnz:AleTUTz:HWUoam]1
+R2
+R0
+w1589651011
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc.v|
+!i113 1
+R4
+R5
+R6
+vuc_alu
+R1
+!i10b 1
+!s100 Gh?dl`@iC6;7ZGkNFnfGl1
+I<Z;MlHh9oJZ?6YPa<X9l11
+R2
+R0
+w1589392292
+8C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v
+FC:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10|C:/Users/Default.DESKTOP-8GME6EK/Documents/Seminario de arquitectura/A10/uc_alu.v|
+!i113 1
+R4
+R5
+R6
